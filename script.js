@@ -3,7 +3,6 @@ const byteSize = (str) => {
 	str = str.length;
 	return str;
 };
-};
 
 // Do not change the code below
 const str = prompt("Enter some string.");
