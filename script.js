@@ -1,7 +1,8 @@
 const byteSize = (str) => {
   // write your code here
-	str = str.length;
-	return str;
+	const blob=new Blob([str]);
+
+	return blob.size;
 };
 
 // Do not change the code below
